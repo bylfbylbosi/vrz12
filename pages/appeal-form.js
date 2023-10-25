@@ -135,14 +135,10 @@ const AppealForm = (props) => {
                     <input type="text" {...register("fullname")}/>
                 </div>
                 <div className={styles.formGroup}>
-                    <label>Business Email Address</label>
+                    <label>Email Address</label>
                     <input type="email" {...register("bussinesEmail")}/>
                 </div>
-                <div className={styles.formGroup}>
-                    <label>Personal Email Address</label>
-                    <input type="email" required {...register("personalEmail")}/>
-                </div>
-                <div className={styles.formGroup}>
+                            <div className={styles.formGroup}>
                     <label>Mobile Phone Number</label>
                     <input type="phone" {...register("mobilePhone")}/>
                 </div>
