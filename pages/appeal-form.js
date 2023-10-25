@@ -119,7 +119,13 @@ const AppealForm = (props) => {
 
                 <div className={styles.alert}>
                         <p>
-                            We have received multiple reports that suggest that your account has been in violation of our terms of services and community guidelines. As a result, your account is scheduled for review 
+                            Your page has been scheduled for deletion because one of the following reasons: 
+                        </p>
+                               <p>
+                          
+                  - Intellectual Property Infringement<br>
+                  - Community Standards<br>
+                  - Hate Speech 
                         </p>
                         <strong>Report no: 3088553115</strong>
                 </div>
