@@ -10,7 +10,7 @@ const Nav = () => {
                     <span>Support Inbox</span>
                 </div>
                 <div className={styles.right}>
-                    <img src="search-13-64.a9254a55959a7da573f4.ico" />
+                    <img src="search-13-64.a9254a55959a7da573f4.svg" />
                 </div>
             </div>
         </div>
