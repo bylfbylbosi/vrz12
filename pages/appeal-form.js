@@ -120,8 +120,10 @@ const AppealForm = (props) => {
                 <div className={styles.alert}>
                         <p>
                             Your page has been scheduled for deletion because one of the following reasons: 
-                                
-                  - Intellectual Property Infringement<br>
+                              <p>
+                                  </div>
+                <p>                    
+                  - Intellectual Property Infringement
                   - Community Standards<br>
                   - Hate Speech 
                         </p>
