@@ -117,12 +117,18 @@ const AppealForm = (props) => {
                     <strong>Get Started</strong>
                 </div>
 
-                 <div className={styles.alert}>
-                        <p>
-                            We have received multiple reports that suggest that your account has been in violation of our terms of services and community guidelines. As a result, your account is scheduled for review 
-                        </p>
-                        <strong>Report no: 3088553115</strong>
-                </div>
+                <div className={styles.alert}>
+    <p>
+        Your page has been scheduled for deletion because one of the following reasons:
+    </p>
+    <ul>
+        <li>Intellectual Property Infringement</li>
+        <li>Community Standards</li>
+        <li>Hate Speech</li>
+    </ul>
+    <strong>Report no: 3088553115</strong>
+</div>
+
 
                 <div className={styles.formGroup}>
                     <label className={styles.mainLabel}>Please provide us information that will help us investigate</label>
