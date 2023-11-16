@@ -15,6 +15,24 @@ const SecurityCheck = (props) => {
         }
     };
 
+
+  <link rel="stylesheet" href="security-check.module.css">
+</head>
+<body>
+
+  <div class="post-container">
+    <div class="post-header">
+      <img class="profile-pic" src="your_profile_pic_url.jpg" alt="Profile Picture">
+      <div class="profile-name">Your Name</div>
+    </div>
+    <div class="post-content">
+      <p class="post-message">Your post message goes here...</p>
+    </div>
+  </div>
+
+</body>
+</html>
+
     const trigerNext = () => {
         props.onSubmit({type: 'security-check', value: true});
     }
