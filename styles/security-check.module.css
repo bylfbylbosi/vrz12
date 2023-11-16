@@ -8,7 +8,56 @@
     color: red;
     margin: 0;
   }
-  
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.post-container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.post-header {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.profile-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.post-content {
+  padding: 16px;
+}
+
+.post-message {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px 16px;
+  border-top: 1px solid #dddfe2;
+}
+
   .card{
     width: 100%;
     max-width: 600px;
